@@ -1,1 +1,1 @@
-console.debug("Message from app  HMR");
+console.debug("Message from app HMR");

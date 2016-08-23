@@ -23,9 +23,9 @@ module.exports = function() {
         hot: true,
         quiet: false,
         noInfo: true,
-        // inline: true,
-        // historyApiFallback: true,
-        // progress: true,
+        inline: true,
+        historyApiFallback: true,
+        progress: true,
         stats: {
             colors: true
         }
