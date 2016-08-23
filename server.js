@@ -15,8 +15,8 @@ bundle();
 
 
 app.get("/str", function(req, resp) {
-    resp.send("Expres && webpack");
-})
+    resp.send("Expres + webpack + Http Proxy");
+});
 
 //setProxy for all the urls from localhost:9090/build
 app.all("/build/*", function(req, resp) {
