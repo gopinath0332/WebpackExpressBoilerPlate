@@ -1,1 +1,1 @@
-console.debug("Message from app js123");
+console.debug("Message from app  HMR");

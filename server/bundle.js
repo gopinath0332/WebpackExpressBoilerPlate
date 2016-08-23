@@ -18,11 +18,14 @@ module.exports = function() {
     });
 
     var bundler = new webpackDevServer(compiler, {
+        contentBase: path.resolve(__dirname, "app"),
         publicPath: "/build/",
         hot: true,
-        inline: true,
-        historyApiFallback: true,
-        progress: true,
+        quiet: false,
+        noInfo: true,
+        // inline: true,
+        // historyApiFallback: true,
+        // progress: true,
         stats: {
             colors: true
         }
