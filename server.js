@@ -18,6 +18,13 @@ app.get("/str", function(req, resp) {
     resp.send("Expres + webpack + Http Proxy");
 });
 
+app.get("/json", function(req, resp) {
+    resp.send({
+        "a": 1
+    });
+});
+
+
 //setProxy for all the urls from localhost:9090/build
 app.all("/build/*", function(req, resp) {
     proxy.web(req, resp, {
