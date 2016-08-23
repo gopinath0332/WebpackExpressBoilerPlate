@@ -1,1 +1,1 @@
-console.debug("Message from app js");
+console.debug("Message from app js123");
